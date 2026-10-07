@@ -15,3 +15,12 @@ This repository contains my work for a job interview with **Apartment List**.
 - **Check All The Boxes:** Deliver curated properties that match each renter's wishlist.
 - **Your Silver Lining:** Take care of the tedious parts of the search so renters can enjoy finding their next home.
 - **Do Better:** Hold a high bar for renting and deliver on it with every move-in.
+
+## Build & Run
+
+Requires JDK 25. Uses the Gradle wrapper, so no local Gradle install is needed.
+
+```sh
+./gradlew build   # compile and run tests
+./gradlew run     # run the app
+```
