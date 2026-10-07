@@ -1,4 +1,4 @@
-package apartmentlist;
+package com.apartmentlist.controller;
 
 import java.util.Map;
 

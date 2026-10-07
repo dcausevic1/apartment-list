@@ -34,3 +34,15 @@ curl http://localhost:8080/health
 ```
 
 Sample requests are in `requests.http` (runnable from IntelliJ).
+
+## Project Structure
+
+```
+app/src/main/java/com/apartmentlist/
+├── ApartmentListApplication.java   # entry point
+├── controller/                     # REST endpoints (routing)
+├── service/                        # business logic
+├── model/                          # domain objects and DTOs
+├── repository/                     # in-memory data access
+└── exception/                      # custom exceptions and global error handling
+```
