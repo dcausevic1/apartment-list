@@ -18,9 +18,19 @@ This repository contains my work for a job interview with **Apartment List**.
 
 ## Build & Run
 
-Requires JDK 25. Uses the Gradle wrapper, so no local Gradle install is needed.
+A Spring Boot 4 web app. Requires JDK 25. Uses the Gradle wrapper, so no local Gradle install is needed.
 
 ```sh
-./gradlew build   # compile and run tests
-./gradlew run     # run the app
+./gradlew build     # compile and run tests
+./gradlew test      # run tests only
+./gradlew bootRun   # start the server on http://localhost:8080
 ```
+
+Check that the server is up:
+
+```sh
+curl http://localhost:8080/health
+# {"status":"ok"}
+```
+
+Sample requests are in `requests.http` (runnable from IntelliJ).
